@@ -54,9 +54,9 @@ public class LoginScreen extends JFrame {
 		setTitle("Game | Login or Sign Up");
 		setName("Game | Login or Sign Up");
 		
-		background.setIcon(new ImageIcon(getClass().getResource("/resources/mountain-test.jpeg")));
+		background.setIcon(new ImageIcon(getClass().getResource("/resources/mountain.jpeg")));
 		background.setBorder(null);
-		background.setBounds(-80, 0, 1100, 700);
+		background.setBounds(0, 0, 1100, 700);
 		
 		logo.setIcon(new ImageIcon(getClass().getResource("/resources/logo.png")));
 		logo.setBorder(null);
@@ -104,7 +104,7 @@ public class LoginScreen extends JFrame {
 		panel.add(passwordBar);
 		panel.add(signUpButton);
 		panel.add(loginButton);
-//		panel.add(background);
+		panel.add(background);
 		
 		add(panel);
 		
